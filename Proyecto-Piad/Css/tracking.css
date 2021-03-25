@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Fredoka One', cursive;
+}
+
+body {
+    background-image: url(../img/fondo_0.jpg);
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+
+    overflow:hidden;
+  }
+
+
+.video-wrap{
+    margin-left: 22%;
+    width: 1020px;
+    height: 1000px;
+    
+}
+
+#canvas{
+    position: absolute;
+    top: 5.5%;
+}
+
+#video{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+.menu{
+    width: 100%;
+    background-color: black;
+    background-color: rgba(0,0,0,.4);
+    
+}
+
+.menu ul{
+    width: 100%;
+    list-style: none;
+    
+}
+
+.menu ul li{
+    display: inline-block;
+    border-right: 1px solid white;
+    padding-right: 5px;
+}
+
+.menu > ul > li:first-child{
+  
+   border-right: none;
+   margin-right: 65%;
+
+}
+.menu > ul > li:last-child{
+  
+    border-right: none;
+
+ 
+ }
+.menu ul li a{
+    display: block;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    color: white;
+    text-decoration: none;
+    transition: all 500ms;
+}
+
+.menu a i{
+    margin-right: 10px;
+    font-size: 32px;
+    color:#FFFFFF;
+    transition: all 500ms;
+}
+
+
+
+#persons{
+    position: absolute;
+    left: 0%;
+    top: 10%;
+    margin-left: 10px;
+
+    font-size: 25px;
+    color: white;
+
+}
+
+.menu ul li a:hover {
+    font-size: 25px;
+ 
+}
+
+.menu ul li a:hover i{
+    color:  #df0fb2
+ 
+}
+

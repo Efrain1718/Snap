@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/5ce21e2f51.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="img/icon_1.png" type="image/x-icon" />
+    <link rel="stylesheet" href="Css/main.css">
+
+    <title>SnapShoot</title>
+</head>
+
+<body>
+    <nav class="menu">
+        
+        <ul>
+            <li><a href="index.html"><i class="fas fa-camera-retro"></i>SnapShoot</a></li>
+            <li><a href="index.html">Pictures</a></li>
+            <li><a href="videos.html">Videos</a></li>
+            <li><a href="tracking.html">Tracking</a></li>
+            <li><a href="shoot.html">Take a picture!</a></li>
+        </ul>
+    </nav>
+ <div class="clearfix"></div>
+    <div class="preview">
+       
+        <canvas id="canvasOrg" width="800" height="600"></canvas>
+        <canvas id="canvasPicture" width="800" height="600"></canvas>
+    </div>
+    
+    <div class="filters">
+        <ul>
+            <li id="preF"> <a href="#"><i class="fas fa-chevron-circle-left"></i></a></li>
+            <li id="NFilter"> <a href="#">filters</a></li>
+            <li id="nextF"> <a href="#"><i class="fas fa-chevron-circle-right"></i></a></li>
+        </ul>
+    </div>
+    
+    <div class="buttons">
+        <input type="file" id="seleccionArchivos" accept="videp/*">
+        <button id="save"><i class="fas fa-save"></i></button>
+    </div>
+  
+   
+    <script src="JS/load.js"></script>
+</body>
+
+</html>
+
+<!--
+    <img id="imageFilter"> -->

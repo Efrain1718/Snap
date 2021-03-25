@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/5ce21e2f51.js" crossorigin="anonymous"></script>
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="Css/tracking.css">
+    <link rel="icon" href="img/icon_1.png" type="image/x-icon" />
+
+    <script src="traking/face-api.min.js"></script>
+   
+    <title>SnapShoot</title>
+</head>
+
+<body>
+
+    <nav class="menu">
+        
+        <ul>
+            <li><a href="index.html"><i class="fas fa-camera-retro"></i>SnapShoot</a></li>
+            <li><a href="index.html">Pictures</a></li>
+            <li><a href="videos.html">Videos</a></li>
+            <li><a href="tracking.html">Tracking</a></li>
+            <li><a href="shoot.html">Take a picture!</a></li>
+            
+        </ul>
+    </nav>
+    <div class="video-wrap">
+      <video id="video" width="1185" height="885" preload autoplay loop muted></video>
+        <canvas id="canvas" width="0" height="0"></canvas>
+    </div>
+
+
+    <div id="persons">
+      <p>Persons on Camera : <i id="total"></i></p>
+    </div>
+
+    <script src="tracking.js"></script>
+
+</body>
+
+</html>
+
+<!--<style>
+  video, canvas {
+    margin-left: 230px;
+    margin-top: 120px;
+    position: absolute;
+  } -->
+  
+  

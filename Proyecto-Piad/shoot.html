@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/5ce21e2f51.js" crossorigin="anonymous"></script>
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="Css/style.css">
+    <link rel="icon" href="img/icon_1.png" type="image/x-icon" />
+
+    <script src="traking/face-api.min.js"></script>
+   
+    <title>SnapShoot</title>
+</head>
+
+<body>
+
+    <nav class="menu">
+        
+        <ul>
+            <li><a href="index.html"><i class="fas fa-camera-retro"></i>SnapShoot</a></li>
+            <li><a href="index.html">Pictures</a></li>
+            <li><a href="videos.html">Videos</a></li>
+            <li><a href="tracking.html">Tracking</a></li>
+            <li><a href="shoot.html">Take a picture!</a></li>
+        </ul>
+    </nav>
+    <div class="video-wrap">
+        <video id="video" playsinline autoplay></video> 
+        <canvas id="canvas" width="1100" height="885"></canvas>
+    </div>
+
+  
+    <div class="controller">
+        <button id="snap" > <i class="fas fa-camera-retro"></i></button>
+    </div>
+
+    <div class="filters">
+        <ul>
+            <li id="preF"> <a href="#"><i class="fas fa-chevron-circle-left"></i></a></li>
+            <li id="NFilter"> <a href="#">filters</a></li>
+            <li id="nextF"> <a href="#"><i class="fas fa-chevron-circle-right"></i></a></li>
+        </ul>
+    </div>
+    
+    <script src="JS/snap.js"></script>
+
+</body>
+
+</html>
+
+
+<!-- Stream video via webcam 
+    <div class="video-wrap">
+        <video id="video" playsinline autoplay></video>
+    </div>-->
+
+<!-- Webcam video snapshot 
+    <canvas id="canvas" width="640" height="480"></canvas>-->
